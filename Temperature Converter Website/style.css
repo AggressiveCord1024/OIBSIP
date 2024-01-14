@@ -1,0 +1,102 @@
+html {
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300; /* Lighter body text */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    max-width: 65%;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .page-title {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 36px;
+    margin: 0 0 15px;
+  }
+  
+  .page-subtitle {
+    color: #777;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  input {
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(40%);
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #555;
+    outline: none;
+  }
+  
+  label {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #1DA1F2, #1A75CF);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #2980b9, #2565a5);
+  }
+  
+  #result {
+    color: black;
+    font-size: 24px;
+    margin-top: 25px;
+    background-color: #fff; /* Updated primary color */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: #333;
+    margin: 0 10px;
+  }
+  
